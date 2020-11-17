@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 13 11:18:31 2020
-
-@author: marks
-"""
 import turtle
 
 def shape_square(ninja_turtle):
@@ -20,7 +14,7 @@ def draw_art():
     raph.color("yellow")
     raph.speed()
     for i in range(1,37):
-        draw_square(raph)
+        shape_square(raph)
         raph.right(10)
 
     window.exitonclick()
