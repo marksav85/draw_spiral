@@ -11,7 +11,7 @@ def draw_art():
     #Create turtle Raph - Draws a square
     raph = turtle.Turtle()
     raph.shape("turtle")
-    raph.color("yellow")
+    raph.color("red")
     raph.speed()
     for i in range(1,37):
         shape_square(raph)
