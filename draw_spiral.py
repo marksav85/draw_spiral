@@ -22,3 +22,7 @@ def draw_art():
     for i in range(1,37):
         draw_square(raph)
         raph.right(10)
+
+    window.exitonclick()
+
+draw_art()
